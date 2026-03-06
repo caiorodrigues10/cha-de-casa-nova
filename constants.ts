@@ -51,4 +51,5 @@ export const GIFTS_STORAGE_KEY = 'housewarming_gifts';
 export const RSVP_STORAGE_KEY = 'housewarming_reservas_presenca';
 export const CONFIG_STORAGE_KEY = 'housewarming_config';
 
-export const ADMIN_PASSWORD = 'admin123';
+// Chave para persistir o JWT admin no localStorage
+export const ADMIN_JWT_KEY = 'housewarming_admin_jwt';

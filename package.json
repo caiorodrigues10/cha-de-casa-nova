@@ -1,5 +1,5 @@
 {
-  "name": "chá-de-casa-nova---nosso-novo-lar",
+  "name": "cha-de-casa-nova-nosso-novo-lar",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,15 +9,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "framer-motion": "^12.35.0",
+    "js-cookie": "^3.0.5",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "react-hook-form": "7.54.2",
-    "zod": "3.24.1",
-    "@hookform/resolvers": "^5.2.2"
+    "react-hook-form": "^7.54.2",
+    "sonner": "^2.0.7",
+    "zod": "3.24.1"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^22.14.0",
+    "@types/react": "^19.2.14",
     "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }

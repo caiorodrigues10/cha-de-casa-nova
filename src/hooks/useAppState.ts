@@ -164,8 +164,8 @@ export function useAppState() {
       window.history.replaceState({}, '', window.location.pathname);
     }
 
-    // Suporte a rota /admin
-    if (window.location.pathname === '/admin') {
+    // Suporte a rota /painel
+    if (window.location.pathname === '/painel') {
       window.history.replaceState({}, '', '/');
       if (!savedJwt || !isValidAdminJwt(savedJwt)) {
         setShowAdminLogin(true);

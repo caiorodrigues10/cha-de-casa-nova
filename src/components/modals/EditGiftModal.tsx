@@ -65,6 +65,7 @@ const EditGiftModal: React.FC<EditGiftModalProps> = ({ gift, onSave, onClose }) 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
           <Input label="Nome" placeholder="Ex: Conjunto de Facas" {...register('name')} error={errors.name?.message as string} />
           <Textarea label="Descrição" placeholder="Breve detalhe..." {...register('description')} error={errors.description?.message as string} rows={3} />
+          <Input label="Link do Presente (Opcional)" placeholder="https://..." {...register('link')} error={errors.link?.message as string} />
 
           {/* Upload de imagem */}
           <div className="flex flex-col gap-1.5">

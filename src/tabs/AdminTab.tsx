@@ -103,6 +103,7 @@ const AdminTab: React.FC<AdminTabProps> = ({
           <form onSubmit={subGift(handleAddGift)} className="space-y-5">
             <Input    label="Nome"      placeholder="Ex: Conjunto de Facas" {...regGift('name')}        error={errGift.name?.message as string} />
             <Textarea label="Descrição" placeholder="Breve detalhe..."      {...regGift('description')} error={errGift.description?.message as string} rows={3} />
+            <Input    label="Link do Presente (Opcional)" placeholder="https://..." {...regGift('link')} error={errGift.link?.message as string} />
 
             {/* Upload de imagem */}
             <div className="flex flex-col gap-1.5">
